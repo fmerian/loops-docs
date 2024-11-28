@@ -1,0 +1,73 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+
+  "name": "Starter Kit",
+
+  "logo": {
+    "dark": "/assets/logo/dark.svg",
+    "light": "/assets/logo/light.svg",
+    "href": "/docs"
+  },
+
+  "favicon": "/assets/favicon.svg",
+
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  },
+
+  "layout": "sidenav",
+
+  "search": {
+    "location": "side"
+  },
+
+  "sidebar": {
+    "items": "border"
+  },
+
+  "feedback": {
+    "thumbsRating": true
+  },
+
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "content/introduction",
+        "content/quickstart",
+        "content/development"
+      ]
+    },
+    {
+      "group": "Essentials",
+      "pages": [
+        "content/essentials/markdown",
+        "content/essentials/code",
+        "content/essentials/images",
+        "content/essentials/settings",
+        "content/essentials/navigation",
+        "content/essentials/reusable-snippets"
+      ]
+    },
+    {
+      "group": "About",
+      "pages": ["content/about/fmerian", "content/about/repo"]
+    }
+  ],
+
+  "footerSocials": {
+    "x": "https://x.com/fmerian",
+    "linkedin": "https://linkedin.com/in/fmerian"
+  }
+}
